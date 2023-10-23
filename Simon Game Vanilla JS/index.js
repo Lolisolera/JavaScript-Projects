@@ -30,7 +30,6 @@ buttons.forEach(button => {
 });
 
 
-
 function checkAnswer(currentLevel) {
 
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
@@ -57,7 +56,7 @@ function checkAnswer(currentLevel) {
 
         document.getElementById("level-title").innerText = "Game Over, Press Any Key to Restart";
 
-        //2. Call startOver() if the user gets the sequence wrong.
+        //Call startOver() if the user gets the sequence wrong.
         startOver();
     }
 
@@ -65,7 +64,7 @@ function checkAnswer(currentLevel) {
 function nextSequence() {
     userClickedPattern = [];
     level++;
-    document.getElementById("level-title").textContent = "Level " + level;
+    document.getElementById("level-title").innerText = "Level " + level;
 
     let randomNumber = Math.floor(Math.random() * 4);
     let randomChosenColour = buttonColours[randomNumber];
