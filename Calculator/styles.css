@@ -4,11 +4,10 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
-    color: #DBEDF3;
-    font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
-
+    font-size: 2.5rem;
+    color: #001d3d;
+    font-family: 'Press Start 2P', cursive;
+    margin: 50px;
 }
 
 
@@ -20,27 +19,43 @@ h1 {
 }
 
 
+#btn-1,
+#btn-2,
+#btn-3,
+#btn-4,
+#btn-5,
+#btn-6,
+#btn-7,
+#btn-8,
+#btn-9,
+#btn-0,
+#btn-plus,
+#btn-minus,
+#btn-multiply,
+#btn-equal,
+#btn-divide,
+#btn-clear {
+    border: 5px solid #337CCF;
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+}
 
-# {
-    outline: none;
-    border: 10px solid #337CCF;
-    font-size: 5rem;
-    font-family: 'Arvo',
-        cursive;
-    line-height: 2;
-    font-weight: 900;
-    color: #DA0463;
-    text-shadow: 3px 0 #DBEDF3;
-    border-radius: 15px;
+
+#output {
+    font-size: 2rem;
+    border: 5px solid #337CCF;
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 50px;
     text-align: center;
     margin: 10px;
     background-color: white;
+
 }
 
 footer {
-    color: #DBEDF3;
-    font-family: sans-serif;
+    color: #001d3d;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
