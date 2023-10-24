@@ -94,3 +94,6 @@ document.querySelectorAll("button").forEach(button => {
 
 clear();
 
+//parseFloat is a built-in JavaScript function used to parse a string and convert it into a floating-point number 
+//(a number with a decimal point). It's often used when you have numeric data in the form of a string, 
+//and you want to work with it as a number, performing mathematical operations.
