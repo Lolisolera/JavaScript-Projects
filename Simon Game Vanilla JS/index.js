@@ -88,7 +88,7 @@ function nextSequence() {
     setTimeout(function () {
         element.style.transition = "none";
         element.style.opacity = 1;
-    }, 100);
+    }, 200);
 }
 
 
